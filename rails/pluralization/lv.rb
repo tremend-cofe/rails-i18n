@@ -1,3 +1,5 @@
+require 'rails_i18n/common_pluralizations/one_other'
+
 module RailsI18n
   module Pluralization
     module Latvian
