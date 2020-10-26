@@ -1,3 +1,3 @@
-require 'rails_i18n/common_pluralizations/west_slavic'
+require 'rails_i18n/common_pluralizations/one_other'
 
-::RailsI18n::Pluralization::WestSlavic.with_locale(:cs)
+::RailsI18n::Pluralization::OneOther.with_locale(:cs)

@@ -21,8 +21,4 @@ module RailsI18n
   end
 end
 
-{ :mt => {
-    :'i18n' => {
-      :plural => {
-        :keys => [:one, :few, :many, :other],
-        :rule => RailsI18n::Pluralization::Maltese.rule }}}}
+::RailsI18n::Pluralization::OneOther.with_locale(:mt)

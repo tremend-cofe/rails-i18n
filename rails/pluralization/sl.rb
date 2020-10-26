@@ -21,8 +21,4 @@ module RailsI18n
   end
 end
 
-{ :sl => {
-    :'i18n' => {
-      :plural => {
-        :keys => [:one, :two, :few, :other],
-        :rule => RailsI18n::Pluralization::Slovenian.rule }}}}
+::RailsI18n::Pluralization::OneOther.with_locale(:sl)

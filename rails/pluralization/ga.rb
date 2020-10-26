@@ -20,8 +20,4 @@ module RailsI18n
   end
 end
 
-{ :ga => {
-    :'i18n' => {
-      :plural => {
-        :keys => [:one, :two, :few, :many, :other],
-        :rule => RailsI18n::Pluralization::Irish.rule }}}}
+::RailsI18n::Pluralization::OneOther.with_locale(:ga)

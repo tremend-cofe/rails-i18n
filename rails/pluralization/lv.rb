@@ -15,8 +15,4 @@ module RailsI18n
   end
 end
 
-{ :lv => {
-    :'i18n' => {
-      :plural => {
-        :keys => [:one, :other],
-        :rule => RailsI18n::Pluralization::Latvian.rule }}}}
+::RailsI18n::Pluralization::OneOther.with_locale(:lv)
