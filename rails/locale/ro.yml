@@ -6,53 +6,53 @@ ro:
         record_invalid: Validare nereuşită %{errors}
   date:
     abbr_day_names:
-    - Dum
-    - Lun
-    - Mar
-    - Mie
-    - Joi
-    - Vin
-    - Sâm
+    - dum
+    - lun
+    - mar
+    - mie
+    - joi
+    - vin
+    - sâm
     abbr_month_names:
-    -
-    - Ian
-    - Feb
-    - Mar
-    - Apr
-    - Mai
-    - Iun
-    - Iul
-    - Aug
-    - Sep
-    - Oct
-    - Noi
-    - Dec
+    - 
+    - ian
+    - feb
+    - mar
+    - apr
+    - mai
+    - iun
+    - iul
+    - aug
+    - sep
+    - oct
+    - noi
+    - dec
     day_names:
-    - Duminică
-    - Luni
-    - Marți
-    - Miercuri
-    - Joi
-    - Vineri
-    - Sâmbată
+    - duminică
+    - luni
+    - marți
+    - miercuri
+    - joi
+    - vineri
+    - sâmbată
     formats:
       default: "%d-%m-%Y"
       long: "%d %B %Y"
       short: "%d %b"
     month_names:
-    -
-    - Ianuarie
-    - Februarie
-    - Martie
-    - Aprilie
-    - Mai
-    - Iunie
-    - Iulie
-    - August
-    - Septembrie
-    - Octombrie
-    - Noiembrie
-    - Decembrie
+    - 
+    - ianuarie
+    - februarie
+    - martie
+    - aprilie
+    - mai
+    - iunie
+    - iulie
+    - august
+    - septembrie
+    - octombrie
+    - noiembrie
+    - decembrie
     order:
     - :day
     - :month
@@ -76,48 +76,48 @@ ro:
         few: aproape %{count} ani
         other: aproape %{count} ani
       half_a_minute: jumătate de minut
-      less_than_x_minutes:
-        one: mai puțin de un minut
-        few: mai puțin de %{count} minute
-        other: mai puțin de %{count} minute
       less_than_x_seconds:
         one: mai puțin de o secundă
         few: mai puțin de %{count} secunde
         other: mai puțin de %{count} secunde
+      less_than_x_minutes:
+        one: mai puțin de un minut
+        few: mai puțin de %{count} minute
+        other: mai puțin de %{count} minute
       over_x_years:
         one: mai mult de un an
         few: mai mult de %{count} ani
         other: mai mult de %{count} ani
-      x_days:
-        one: 1 zi
-        few: "%{count} zile"
-        other: "%{count} zile"
-      x_minutes:
-        one: 1 minut
-        few: "%{count} minute"
-        other: "%{count} minute"
-      x_months:
-        one: 1 lună
-        few: "%{count} luni"
-        other: "%{count} luni"
       x_seconds:
         one: 1 secundă
         few: "%{count} secunde"
         other: "%{count} secunde"
+      x_minutes:
+        one: 1 minut
+        few: "%{count} minute"
+        other: "%{count} minute"
+      x_days:
+        one: 1 zi
+        few: "%{count} zile"
+        other: "%{count} zile"
+      x_months:
+        one: 1 lună
+        few: "%{count} luni"
+        other: "%{count} luni"
     prompts:
-      day: Ziua
-      hour: Ora
-      minute: Minutul
-      month: Luna
-      second: Secunda
-      year: Anul
+      second: secunda
+      minute: minutul
+      hour: ora
+      day: ziua
+      month: luna
+      year: anul
   errors:
     format: "%{attribute} %{message}"
     messages:
       accepted: trebuie dat acceptul
-      blank: nu poate fi gol
+      blank: nu poate fi necompletat
       confirmation: nu este confirmat
-      empty: nu poate fi gol
+      empty: nu poate fi necompletat
       equal_to: trebuie să fie egal cu %{count}
       even: trebuie să fie impar
       exclusion: este rezervat
@@ -133,7 +133,7 @@ ro:
       taken: este deja folosit
       too_long: este prea lung (se pot folosi maximum %{count} caractere)
       too_short: este prea scurt (minimum de caractere este %{count})
-      wrong_length: nu are lungimea corectă (trebuie să aiba %{count} caractere)
+      wrong_length: nu are lungimea corectă (trebuie să aibă %{count} caractere)
     template:
       body: 'Încearcă să corectezi urmatoarele câmpuri:'
       header:
@@ -142,7 +142,7 @@ ro:
         other: 'Nu am putut salva acest %{model}: %{count} erori.'
   helpers:
     select:
-      prompt: Alegeţi
+      prompt: Alegeți
     submit:
       create: Creare %{model}
       submit: Salvare %{model}
@@ -167,11 +167,11 @@ ro:
       decimal_units:
         format: "%n %u"
         units:
-          billion: Miliard
-          million: Milion
-          quadrillion: Quadrilion
-          thousand: Mie
-          trillion: Trilion
+          billion: miliard
+          million: milion
+          quadrillion: quadrilion
+          thousand: mie
+          trillion: trilion
           unit: ''
       format:
         delimiter: ","
@@ -197,8 +197,8 @@ ro:
         delimiter: ''
   support:
     array:
-      last_word_connector: " şi "
-      two_words_connector: " şi "
+      last_word_connector: " și "
+      two_words_connector: " și "
       words_connector: ", "
   time:
     am: ''
